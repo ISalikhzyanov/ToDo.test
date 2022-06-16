@@ -1,38 +1,88 @@
-.App {
-  text-align: center;
+.add {
+    display: flex;
+    margin: 15px;
+    width: auto;
+    justify-content: flex-start;
+    flex-direction: row;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header {
+    display: flex;
+    margin-left: 100px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.toDo {
+    display: flex;
+    align-items: center;
+    border: 2px solid cornflowerblue;
+    width: 1000px;
+    margin: 5px;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.toDo__content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 20px;
+    width: 300px;
 }
 
-.App-link {
-  color: #61dafb;
+.toDo__btn {
+    padding: 5px 15px;
+    display: flex;
+    margin-left: 550px;
+    background: transparent;
+    border: 2px solid cornflowerblue;
+    cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.strike {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 20px;
+    width: 300px;
+    text-decoration: line-through;
+}
+
+.done {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 2px solid cornflowerblue;
+    width: 1000px;
+    margin: 5px;
+    text-decoration: line-through;
+}
+
+.show-all {
+    padding: 5px 15px;
+    display: flex;
+    background: transparent;
+    border: 2px solid cornflowerblue;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.delete {
+    padding: 5px 15px;
+    display: flex;
+    background: transparent;
+    border: 2px solid cornflowerblue;
+    cursor: pointer;
+    margin: 5px;
+}
+.show-done{
+    padding: 5px 15px;
+    display: flex;
+    background: transparent;
+    border: 2px solid cornflowerblue;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.btns {
+    display: flex;
+    flex-direction: row;
 }
